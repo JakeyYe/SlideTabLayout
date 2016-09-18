@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--menu_main.xml布局文件创建菜单项-->
+    <!--该弹出菜单栏的不能添加图标icon-->
+    <!--actionbar里每个item的优先级，值越大优先级越低，actionbar地方不够就会放到overflow中-->
+    <item
+        android:title="Night mode">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_night_mode_system"
+                    android:title="Follow system" />
+                <item
+                    android:id="@+id/menu_night_mode_day"
+                    android:title="Day(always)" />
+                <item
+                    android:id="@+id/menu_night_mode_night"
+                    android:title="Night(always)" />
+                <item
+                    android:id="@+id/menu_night_mode_auto"
+                    android:title="Auto" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/btn_star"
+        android:title="消息"
+        app:showAsAction="ifRoom" />
+
+</menu>

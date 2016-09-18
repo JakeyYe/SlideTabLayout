@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+       <bitmap android:gravity="center"
+           android:src="@drawable/argame04">
+       </bitmap>
+    </item>
+    <item android:top="25dp" android:left="25dp">
+       <bitmap android:gravity="center"
+          android:src="@drawable/lufei"/>
+    </item>
+    <item android:top="50dp" android:left="50dp">
+       <bitmap android:src="@drawable/argame05"
+           android:gravity="center"/>
+    </item>
+</layer-list>
+<!--层叠效果-->

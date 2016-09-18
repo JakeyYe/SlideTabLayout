@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+     <!--外层用group和item应该有区别-->
+    <item android:title="Drawable">
+        <menu>
+            <item
+                android:id="@+id/Subltem1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Button_Sheet" />
+            <item
+                android:id="@+id/Subltem2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="swipe_to_refresh" />
+            <item
+                android:id="@+id/Subltem3"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Tinting" />
+        </menu>
+    </item>
+
+</menu>
